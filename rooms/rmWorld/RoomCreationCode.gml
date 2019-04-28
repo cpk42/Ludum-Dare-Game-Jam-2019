@@ -1,1 +1,1 @@
-instance_create_layer(0,0,"lrPlayers",objGame);
+instance_create_layer(0,0,"GUI",objGame);

@@ -58,7 +58,7 @@
             "Key": "11eb4049-75fb-4483-bb45-848ccbed0ccb",
             "Value": {
                 "id": "16bca082-afe1-457e-90c5-5fe5eed5768e",
-                "resourcePath": "objects\\objSoul\\objSoul.yy",
+                "resourcePath": "objects\\objGhostLife\\objGhostLife.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -68,6 +68,14 @@
                 "id": "6e3911d4-1d92-40bb-99cc-59a99991cc03",
                 "resourcePath": "views\\146c3494-6e87-48c6-9d98-dd22bbe21208.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "243c1b2c-98c9-4abd-b122-1d252fecc245",
+            "Value": {
+                "id": "4b1b09e0-aa73-4763-b5c0-aa3274b3c9a5",
+                "resourcePath": "objects\\objPirateCaptain\\objPirateCaptain.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "4f8c40d0-f81f-498f-aa88-59244c2d67da",
+            "Value": {
+                "id": "38f104e8-566d-4dc7-a994-835b34d465ab",
+                "resourcePath": "rooms\\rmEnd\\rmEnd.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5b5fca1c-dc3c-41cf-b480-07bc0f20c1e3",
             "Value": {
                 "id": "610bbf0b-b75b-43cd-a901-996cfc1e1bf9",
@@ -155,6 +171,14 @@
             "Value": {
                 "id": "acd0a966-dc95-4284-b443-2abe40c6671c",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f0d3c41-8b25-4516-86f5-4f9b5d518779",
+            "Value": {
+                "id": "c1aaff20-cdf7-4950-b98c-9e0ca1c8f6e5",
+                "resourcePath": "objects\\objNewEnemy\\objNewEnemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -183,19 +207,19 @@
             }
         },
         {
+            "Key": "9fd448e9-73b1-470c-a013-504c0a41fddf",
+            "Value": {
+                "id": "1a1a58ea-6fa7-42a1-bdf8-74d5b18b118b",
+                "resourcePath": "objects\\objGhostCaptain\\objGhostCaptain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "553e8d85-9aad-4f8b-8931-95f0c127203c",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
-            }
-        },
-        {
-            "Key": "a8a283b3-caab-4790-8b0f-fc8f7fba541a",
-            "Value": {
-                "id": "7290b464-57fe-4d63-86cf-daaae472114b",
-                "resourcePath": "objects\\objEnemy\\objEnemy.yy",
-                "resourceType": "GMObject"
             }
         },
         {

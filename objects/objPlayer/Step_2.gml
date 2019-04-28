@@ -11,10 +11,9 @@ camera_set_view_pos(view_camera[0], x - halfViewWidth, y - halfViewHeight)
 
 
 //draw_text(halfViewWidth, halfViewHeight, numPirates)
-captain.x = x;
-captain.y = y;
 
-var xx= x- camera_get_view_x(view_camera[0])
-var yy= y- camera_get_view_y(view_camera[0])
-draw_text(xx, yy, numPirates);
-draw_healthbar(xx, yy, xx + 10, yy+10,100,10,0,100,1,true,false)
+if instance_exists(captain) {
+	captain.x = x;
+	captain.y = y;
+}
+

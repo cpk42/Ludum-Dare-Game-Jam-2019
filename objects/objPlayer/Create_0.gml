@@ -7,5 +7,5 @@ captain = instance_create_layer(
 		x,
 		y,
 		"lrPirates",
-		objGhostPirate
+		objGhostCaptain
 )

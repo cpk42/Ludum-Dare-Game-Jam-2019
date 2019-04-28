@@ -1,13 +1,16 @@
 /// @description KEYBOARD FUNCTIONS
-left = keyboard_check(vk_left);
-right = keyboard_check(vk_right);
-up = keyboard_check(vk_up);
-down = keyboard_check(vk_down);
-walk = keyboard_check(vk_control);
-run = keyboard_check(vk_shift);
-shoot = keyboard_check(vk_space);
+up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 
-if up {
+if place_meeting(x,y, objEnemy) {
+	for (i = 0; i < global.enemyCount; i++) {
+		if place_meeting(x,y, global.enemies[i]) {
+			speed = -3;
+			friction = .01;
+		}
+	}
+} else if up {
 	speed = n_spd;
 } else {
 	friction = .01;
@@ -34,3 +37,4 @@ else {
 if (round(image_index >= 9)) {
 	instance_destroy();
 }
+

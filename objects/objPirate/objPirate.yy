@@ -5,13 +5,23 @@
     "name": "objPirate",
     "eventList": [
         {
-            "id": "b6d9d97d-94bd-459f-857f-22c5120a171a",
+            "id": "780f0682-d384-4a0f-a0e4-241ab4faeabf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "0d803db0-4fa0-412b-ae51-b63d53c8c04e"
+        },
+        {
+            "id": "17bde8c1-3ff9-4053-a35d-fa4329565774",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "0d803db0-4fa0-412b-ae51-b63d53c8c04e"
         }
     ],
