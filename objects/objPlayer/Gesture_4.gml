@@ -10,6 +10,7 @@ if global.playerLives > 0 {
 	)
 	with pirate {
 		direction = point_direction(x, y, mouse_x, mouse_y)
+		image_angle = direction
 		speed = 10;
 	}
 	global.playerLives--;
